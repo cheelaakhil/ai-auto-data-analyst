@@ -1,0 +1,27 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background: #080c14;
+  color: #dde4f0;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #0a0e18; }
+::-webkit-scrollbar-thumb { background: #1e2d45; border-radius: 4px; }
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb !important;
+}
